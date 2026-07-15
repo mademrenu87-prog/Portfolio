@@ -165,4 +165,8 @@ export const experience: ExperienceItem[] = [
     description:
       "Ran SQL analysis against Snowflake, led compliance reconciliation and remediation reporting for regulatory audit readiness.",
   },
-];
+  dates: "Jun2008 — Dec2011",
+    title: "Quality Analyst",
+    company: "Amararaja Industies",
+    description:
+      "Perform Excel Statistical analysis to identify patterns,trendsor anomolies in the prodcution and non prod envireents."
