@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #0e7c86;
+  color: #f6f5f1;
+}
+
+.chip {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.01em;
+  color: #14171c;
+  background: #ffffff;
+  border: 1px solid #dad6cc;
+  padding: 0.35rem 0.65rem;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.project-card {
+  background: #ffffff;
+  border: 1px solid #dad6cc;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.project-card:hover {
+  border-color: #0e7c86;
+  transform: translateY(-2px);
+}
+
+.project-head {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.72rem;
+  color: #586070;
+  background: #f6f5f1;
+  border-bottom: 1px solid #dad6cc;
+  padding: 0.55rem 1.25rem;
+}
+
+.tag-pill {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.66rem;
+  color: #586070;
+  background: #f6f5f1;
+  border: 1px solid #edebe4;
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+}
+
+.filter-pill {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.72rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid #dad6cc;
+  background: #ffffff;
+  color: #586070;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.filter-pill:hover {
+  border-color: #0e7c86;
+  color: #0e7c86;
+}
+.filter-pill.active {
+  background: #14171c;
+  border-color: #14171c;
+  color: #f6f5f1;
+}
+
+.contact-link {
+  display: block;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.contact-link:hover {
+  border-color: #0e7c86;
+  background: rgba(14, 124, 134, 0.08);
+}
+
+.cursor-blink {
+  animation: blink 1s steps(1) infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .cursor-blink {
+    animation: none;
+  }
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #0e7c86;
+  outline-offset: 2px;
+}
