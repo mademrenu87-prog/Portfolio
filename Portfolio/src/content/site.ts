@@ -11,7 +11,7 @@ export const site = {
   summary:
     "5+ years leading enterprise release engineering, CI/CD automation, and production reliability for mission-critical systems in regulated financial-services environments.",
   email: "madem.renu87@gmail.com",
-  github: "https://github.com/mademrenu87-prog", // TODO: replace with your GitHub profile/repo URL
+  github: "https://github.com/mademrenu87-prog",
   linkedin: "https://www.linkedin.com/in/renuka-m-36736a339/",
 };
 
@@ -145,7 +145,7 @@ export type ExperienceItem = {
 
 export const experience: ExperienceItem[] = [
   {
-    dates: "Sep 2023 — Present",
+    dates: "Sep 2023 — July 2026",
     title: "Senior Software Engineer",
     company: "Wells Fargo",
     description:
