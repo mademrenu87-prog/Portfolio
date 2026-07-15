@@ -12,7 +12,7 @@ export const site = {
     "4+ years leading enterprise release engineering, CI/CD automation, and production reliability for mission-critical systems in regulated financial-services environments.",
   email: "madem.renu87@gmail.com",
   github: "https://github.com/mademrenu87-prog", // TODO: replace with your GitHub profile/repo URL
-  linkedin: "https://linkedin.com/in/your-profile", // TODO: replace with your LinkedIn URL
+  linkedin: "https://www.linkedin.com/in/renuka-m-36736a339/",
 };
 
 export const terminalFocus = [
