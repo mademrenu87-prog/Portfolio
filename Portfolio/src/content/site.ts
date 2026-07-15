@@ -168,7 +168,7 @@ export const experience: ExperienceItem[] = [
   {
   dates: "Jun2008 — Dec2011",
     title: "Quality Analyst",
-    company: "Amararaja Industies",
+    company: "Amararaja Industries",
     description:
       "Perform Excel Statistical analysis to identify patterns,trendsor anomolies in the prodcution and non prod envireents."
   },
